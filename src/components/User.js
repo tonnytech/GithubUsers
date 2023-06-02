@@ -5,7 +5,16 @@ import styled from 'styled-components';
 import Card from './Card';
 import Followers from './Followers';
 
-const User = () => <h2>search component</h2>;
+const User = () => <section className='section'>
+  <Wrapper className='section-center'>
+    <Card>
+
+    </Card>
+    <Followers>
+      
+    </Followers>
+  </Wrapper>
+</section>;
 
 const Wrapper = styled.div`
   padding-top: 2rem;
